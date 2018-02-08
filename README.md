@@ -6,14 +6,14 @@ Everything else is here: https://goo.gl/QbjK1i
 
 This circuit can be assembled for less than $5 using wholesale prices and overseas suppliers.
 
-STEP 1.
+STEP 1
 Assemble and solder the USB breakout.
 
-STEP 2.
+STEP 2
 Assemble the circuit as shown. Work from the top down. The 5 pin header shows the positioning for the USB breakout board. Make your jumpers neat and cut leads to the correct length. Diodes marked Z are 3.6V zener diodes (2). The diode at the top is a 1N4148 (1).
 
 
-STEP 3.
+STEP 3
 Install the Digispark Windows Driver to your computer.
 
 STEP 4
