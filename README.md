@@ -14,10 +14,13 @@ Assemble the circuit as shown. Work from the top down. The 5 pin header shows th
 
 
 STEP 3.
-Load the Digistump AVR Boards by Digistump using the Boards Manager in Arduino. Select “Digispark (default-16.5 Mhz)” board in Arduino. Do not plug your board into the computer.
+Install the Digispark Windows Driver to your computer.
 
 STEP 4
-Load the BlinkBreadDuino program found in Github or in the shared cloud folder https://goo.gl/QbjK1i. The Green LED is a power LED. The red LED is connected to Pin 1 (address) (pin 6 physical).
+Load the Digistump AVR Boards by Digistump using the Boards Manager in Arduino. Select “Digispark (default-16.5 Mhz)” board in Arduino. Do not plug your board into the computer.
+
+STEP 5
+Load the BlinkBreadDuino Arduino program found in Github or in the shared cloud folder https://goo.gl/QbjK1i. The Green LED is a power LED. The red LED is connected to Pin 1 (address) (pin 6 physical).
 
 NOTES
 1. Github also contains the micronucleus boot loader that can be “burned” to the chip using an AVR programmer. This is in an archive called “isp.zip”. Run the following on the command line from within the same directory as the micronuceus file: avrdude -c usbtiny -p t85 -U flash:w:micronucleus-1.06-upgrade.hex -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xfe:m
