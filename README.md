@@ -10,7 +10,7 @@ STEP 1.
 Assemble and solder the USB breakout.
 
 STEP 2.
-Assemble the circuit as shown below. Work from the top down. The 5 pin header shown below shows the positioning for the USB breakout board. Make your jumpers neat and cut leads to achieve the look shown below. Diodes marked Z are 3.6V zener diodes (2). The diode at the top is a 1N4148 (1).
+Assemble the circuit as shown. Work from the top down. The 5 pin header shows the positioning for the USB breakout board. Make your jumpers neat and cut leads to the correct length. Diodes marked Z are 3.6V zener diodes (2). The diode at the top is a 1N4148 (1).
 
 
 STEP 3.
